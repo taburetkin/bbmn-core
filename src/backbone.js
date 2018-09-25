@@ -1,10 +1,9 @@
-import Backbone, { Model, Collection, View, Events, history, Router, ajax } from 'backbone';
+import { Model, Collection, View as BackboneView, Events, history, Router, ajax } from 'backbone';
 
 export {
-	Backbone,
 	Model,
 	Collection,
-	View as BackboneView,
+	BackboneView,
 	Events,
 	Router,
 	history,
