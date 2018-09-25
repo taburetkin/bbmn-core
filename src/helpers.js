@@ -1,36 +1,47 @@
 import { Model, Collection, BackboneView } from './backbone.js';
 
 
-export function isClass(arg, Base){
+function isClass(arg, Base){
 	return _.isFunction(arg) && (arg == Base || arg.prototype instanceof Base);
 }
 
 
-export function isModel(arg){
+function isModel(arg){
 	return arg instanceof Model;
 }
 
-export function isModelClass(arg) {
+function isModelClass(arg) {
 	return isClass(arg, Model);
 }
 
 
-export function isCollection(arg){
+function isCollection(arg){
 	return arg instanceof Collection;
 }
-export function isCollectionClass(arg) {
+function isCollectionClass(arg) {
 	return isClass(arg, Collection);
 }
 
 
-export function isView(arg){
+function isView(arg){
 	return arg instanceof BackboneView;
 }
 
 
-export function isViewClass(arg) {
+function isViewClass(arg) {
 	return isClass(arg, View);
 }
 
-export const extend = Model.extend;
+const extend = Model.extend;
+
+export {
+	isClass,
+	isModel,
+	isModelClass,
+	isCollection,
+	isCollectionClass,
+	isView,
+	isViewClass,
+	extend
+}
 
