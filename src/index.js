@@ -31,7 +31,7 @@ import {
 //export { default as BaseClass } from './base-class.js';
 import BaseClass from './base-class.js';
 
-/*export {
+export {
 	MnObject, 
 	Region,
 	Model,
@@ -51,7 +51,7 @@ import BaseClass from './base-class.js';
 	extend,
 	BaseClass
 }
-*/
+/*
 export default {
 	MnObject, 
 	Region,
@@ -72,3 +72,4 @@ export default {
 	extend,
 	BaseClass
 }
+*/
