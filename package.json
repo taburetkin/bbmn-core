@@ -1,7 +1,7 @@
 {
   "name": "bbmn-core",
   "version": "1.0.0",
-  "main": "lib/iife/index.js",
+  "main": "lib/es/index.js",
   "repository": "https://github.com/taburetkin/bbmn-core.git",
   "author": "dimtabu <dima.taburetkin@gmail.com>",
   "license": "MIT",
