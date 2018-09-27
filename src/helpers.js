@@ -29,7 +29,7 @@ function isView(arg){
 
 
 function isViewClass(arg) {
-	return isClass(arg, View);
+	return isClass(arg, BackboneView);
 }
 
 const extend = Model.extend;
