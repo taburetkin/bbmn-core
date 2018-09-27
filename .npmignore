@@ -1,0 +1,9 @@
+coverage
+gulp
+test
+.babelrc
+.eslintignore
+.eslintrc
+.gitignore
+gulpfile.babel.js
+yarn.lock

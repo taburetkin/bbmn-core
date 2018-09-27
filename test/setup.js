@@ -5,7 +5,6 @@ import chaiJq from 'chai-jq';
 import _ from 'underscore';
 import Backbone from 'backbone';
 import Mn from 'backbone.marionette';
-import $ from 'jquery';
 
 
 chai.use(sinonChai);
@@ -28,7 +27,7 @@ if (!global.document || !global.window) {
 	
 }
 
-
+const $ = require('jquery')(global.window);
 
 Backbone.$ = $;
 global.Backbone = Backbone;

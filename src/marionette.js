@@ -1,7 +1,8 @@
-import Mn, { Region } from 'backbone.marionette';
+export { Region } from 'backbone.marionette';
+import { Object as oldObject, MnObject } from 'backbone.marionette';
 
-const MnObject = Mn.Object || Mn.MnObject;
+const newObject = MnObject || oldObject;
 
 export {
-	MnObject, Region
-};
+	newObject as MnObject
+}

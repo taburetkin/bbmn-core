@@ -3,7 +3,7 @@ import mocha from 'gulp-mocha';
 
 const mochaGlobals = ['stub', 'spy', 'expect', 'Mn'];
 
-function _mocha(setupFile) {
+function gulpMocha(setupFile) {
 	return gulp.src(
 		[setupFile,'test/unit/**/*.js'],
 		{read: false}
@@ -16,9 +16,9 @@ function _mocha(setupFile) {
 }
 
 
-function test() {
+export function test() {
 	require("babel-register");
-	return _mocha('test/setup.js');
+	return gulpMocha('test/setup.js');
 }
 
 gulp.task('test', test);
