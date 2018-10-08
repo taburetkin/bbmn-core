@@ -1,7 +1,7 @@
 {
   "name": "bbmn-core",
   "description":"backbone marionette extensions pack, core library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "module": "lib/es/index.js",
   "jsnext": "lib/es/index.js",
