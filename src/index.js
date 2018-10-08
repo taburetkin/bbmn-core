@@ -1,5 +1,6 @@
 import { version as VERSION } from '../package.json';
-//const VERSION = "1.0.0";
+
+
 import { Region, MnObject } from './marionette.js';
 import {
 	Model,
@@ -43,7 +44,7 @@ export {
 	isViewClass,
 	extend,
 	BaseClass
-}
+};
 
 export default {
 	VERSION,
@@ -64,8 +65,5 @@ export default {
 	isViewClass,
 	extend,
 	BaseClass
-}
+};
 
-// export * from './backbone.js';
-// export * from './helpers.js';
-// export { default as BaseClass } from './base-class.js';

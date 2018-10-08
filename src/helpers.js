@@ -1,5 +1,5 @@
 import { Model, Collection, BackboneView } from './backbone.js';
-
+import _ from 'underscore';
 
 function isClass(arg, Base){
 	return _.isFunction(arg) && (arg == Base || arg.prototype instanceof Base);
@@ -43,5 +43,5 @@ export {
 	isView,
 	isViewClass,
 	extend
-}
+};
 

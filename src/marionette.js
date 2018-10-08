@@ -6,4 +6,4 @@ const newObject = MnObject || oldObject;
 
 export {
 	newObject as MnObject
-}
+};
